@@ -1,6 +1,10 @@
 #!/usr/bin/bash
 # Script pour compiler le main et les differents algorithmes de tri
 
+# Creation des dossiers si besoin
+mkdir -p build
+mkdir -p data
+
 # Compilation du main
 g++ -Wall -Ofast -c main.cpp -o build/main.o
 
